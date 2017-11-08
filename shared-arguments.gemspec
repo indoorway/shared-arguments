@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['robert.pawlas@indoorway.com']
 
   spec.summary       = 'This gem allows you to share arguments between multiple fields while using graphql.'
-  spec.homepage      = 'http://indoorway.com'
+  spec.homepage      = 'https://github.com/hedselu/shared-arguments'
   spec.license       = 'MIT'
 
   if spec.respond_to?(:metadata)
@@ -25,6 +25,8 @@ Gem::Specification.new do |spec|
   spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
+  spec.required_ruby_version = '>= 2.4.0'
+  spec.add_runtime_dependency 'graphql', '>= 1.6.0'
 
   spec.add_development_dependency 'bundler', '~> 1.14'
   spec.add_development_dependency 'rake', '~> 10.0'
