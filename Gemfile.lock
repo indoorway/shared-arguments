@@ -29,7 +29,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.14)
   graphql
-  rake (~> 10.0)
+  rake
   rspec
   shared-arguments!
 
