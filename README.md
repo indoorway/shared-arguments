@@ -1,6 +1,7 @@
 # shared-arguments
 
 [![Build Status](https://travis-ci.org/hedselu/shared-arguments.svg?branch=master)](https://travis-ci.org/hedselu/shared-arguments)
+![](http://ruby-gem-downloads-badge.herokuapp.com/shared-arguments?type=total&metric=true)
 
 Ruby gem for GraphQL arguments sharing within fields
 
