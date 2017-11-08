@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'graphql/shared_arguments/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'shared_arguments'
+  spec.name          = 'shared-arguments'
   spec.version       = GraphQL::SharedArguments::VERSION
   spec.authors       = ['Robert Pawlas']
   spec.email         = ['robert.pawlas@indoorway.com']
