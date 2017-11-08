@@ -3,7 +3,7 @@ Ruby gem for GraphQL arguments sharing within fields
 
 **Sponsored by**
 <a href="https:///www.indoorway.com/" target="_blank" rel="noopener noreferrer">
-  <img src="images/indoorway_logo.png" height="50" width="160" alt="Sponsored by Indoorway" style="max-width:100%;">
+  <img src="images/indoorway_logo.svg" height="50" width="160" alt="Sponsored by Indoorway" style="max-width:100%;">
 </a>
 
 ## Contents
