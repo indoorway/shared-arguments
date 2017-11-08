@@ -1,4 +1,7 @@
 # shared-arguments
+
+[![Build Status](https://travis-ci.org/hedselu/shared-arguments.svg?branch=master)](https://travis-ci.org/hedselu/shared-arguments)
+
 Ruby gem for GraphQL arguments sharing within fields
 
 **Sponsored by**
@@ -21,9 +24,9 @@ Sometimes you want to use the same arguments for multiple fields in custom objec
 To avoid repeating those declarations and DRY-up your schema, I introduce you shared_arguments field.
 
 This gem is mostly usable when you have:
- - many fields with few repeating arguments in each field
- - few fields with many repeating arguments in each field
- - many fields with many repeating arguments in each field
+ - many fields with few repeating arguments
+ - few fields with many repeating arguments
+ - many fields with many repeating arguments
 
 ## Installation
 

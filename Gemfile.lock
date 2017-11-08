@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    shared_arguments (0.1.0)
+    shared-arguments (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -31,7 +31,7 @@ DEPENDENCIES
   graphql
   rake (~> 10.0)
   rspec
-  shared_arguments!
+  shared-arguments!
 
 RUBY VERSION
    ruby 2.4.1p111
