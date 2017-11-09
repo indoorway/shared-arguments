@@ -2,12 +2,11 @@
 
 ![](https://badge.fury.io/rb/shared-arguments.svg)
 [![Build Status](https://travis-ci.org/hedselu/shared-arguments.svg?branch=master)](https://travis-ci.org/hedselu/shared-arguments)
-![](http://ruby-gem-downloads-badge.herokuapp.com/shared-arguments)
 <br>
 
 This gem allows share arguments within GraphQL fields for [graphql-ruby](https://github.com/rmosolgo/graphql-ruby).
 
-**Sponsored by**
+**Created by**
 <br>
 <br>
 <a href="https:///www.indoorway.com/" target="_blank" rel="noopener noreferrer">
@@ -33,8 +32,16 @@ This gem is mostly usable when you have:
 
 ## Installation
 
-`gem install shared-arguments`
+```
+gem install shared-arguments
+require 'graphql/shared_arguments
+```
 
+With Gemfile
+
+```
+gem 'shared-arguments', require: 'graphql/shared_examples'
+```
 ## Setup
 
 Include SharedArguments in your schema
